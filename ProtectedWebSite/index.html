@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div>I'm body of the protected website!</div>
+    <div id='cookies'></div>
+    <script>
+        var x = document.cookie;
+        var cookiesString = 'Cookies: ' + x;
+        console.log(cookiesString);
+        var cookies = document.getElementById('cookies');
+        cookies.innerHTML = cookiesString;
+    </script>
+</body>
+</html>
